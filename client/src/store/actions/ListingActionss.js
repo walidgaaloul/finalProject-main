@@ -278,13 +278,15 @@ export const fetchListingsFilter = (search) => {
   console.log(search);
   return async (dispatch) => {
     let res = await axios.get(`/listings/search${search}`);
-    const listings = res.data.items;
+    console.log('res',res)
+    const listings = res.data;
+    console.log('success',listings)
 
     for (let listing of listings) {
-      let resPhoto = await axios.get(`/listings/${listing.id}/images`);
-      listing.photos = resPhoto.data.items;
-      let resReview = await axios.get(`/listings/${listing.id}/reviews`);
-      listing.reviews = resReview.data.items;
+      let resPhoto = await axios.get(`/listings/${listing._id}/images`);
+      listing.photos = resPhoto.data;
+      let resReview = await axios.get(`/listings/${listing._id}/reviews`);
+      listing.reviews = resReview.data;
     }
     dispatch(receiveListings(listings));
   };
