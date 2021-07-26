@@ -55,7 +55,7 @@ const HOME_TYPES = {
 
 const CardInfoSmall = ({ listing, small, arrows, big }) => {
   return (
-    <Link component={StyledLink} to={`listings/${listing.id}`}>
+    <Link component={StyledLink} to={`listings/${listing._id}`}>
       <S.WrapperImage>
         <CardCarousel listing={listing} arrows={arrows} small={small} big={big} />
       </S.WrapperImage>

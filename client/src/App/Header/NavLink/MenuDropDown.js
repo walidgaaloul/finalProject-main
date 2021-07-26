@@ -10,7 +10,7 @@ import ClickAwayListener from '@material-ui/core/ClickAwayListener/index';
 import MenuList from '@material-ui/core/MenuList/index';
 import { makeStyles } from '@material-ui/core/styles/index';
 import { logOutUser } from '../../../store/actions/AuthActions';
-
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 const useStyles = makeStyles({
   avatar: {
     width: 30,
@@ -68,7 +68,14 @@ const DropDownMenu = ({ photoURL, logOutUser }) => {
             <Paper>
               <ClickAwayListener onClickAway={handleClose}>
                 <MenuList>
-                  <MenuItem onClick={handleClose}>Profile</MenuItem>
+                  <MenuItem onClick={handleClose}> <Link
+              to="/edit_profile/edit"
+              className="nav-down-item nav-settings"
+            >
+              {/* <div>
+                <SettingsIcon className="nav-down-icon" />
+              </div> */}
+            Profile</Link></MenuItem>
                   <MenuItem onClick={logOutUser}>Logout</MenuItem>
                 </MenuList>
               </ClickAwayListener>

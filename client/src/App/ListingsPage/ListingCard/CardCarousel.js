@@ -87,13 +87,13 @@ const CardCarousel = ({ listing, small, arrows, big }) => {
   return (
     <S.DivImageContainer>
       <S.DivImageContent>
-        <Link to={`/listings/${listing.id}`}>
+        <Link to={`/listings/${listing._id}`}>
           <Slider {...settings} arrows={arrows}>
             {listing.photos &&
               listing.photos.length > 0 &&
               listing.photos.map((item, index) => (
                 <div key={index}>
-                  <S.ImageDiv src={item.url} alt="listing" small={small} big={big} />
+                  <S.ImageDiv src={item.img_url} alt="listing" small={small} big={big} />
                 </div>
               ))}
           </Slider>

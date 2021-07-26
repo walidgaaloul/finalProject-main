@@ -31,7 +31,7 @@ const CardInfo = ({ listing }) => {
   return (
     <S.DivInfoContentPadding>
       <S.SpanContainer>
-        <Link component={StyledLink} to={`listings/${listing.id}`}>
+        <Link component={StyledLink} to={`listings/${listing._id}`}>
           <S.DivFixUnderline>
             <S.DivMargin>
               <S.DivType>{HOME_TYPES[listing.room_type]}</S.DivType>

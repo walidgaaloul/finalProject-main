@@ -10,7 +10,7 @@ class PhotoCarouselDisplay extends Component {
             <Uljpemon>
               <Liyrgbo5>
                 <span>
-                  <ImageCarousel src={this.props.photo.url} alt="carousel" />
+                  <ImageCarousel src={this.props.photo.img_url} alt="carousel" />
                 </span>
               </Liyrgbo5>
             </Uljpemon>

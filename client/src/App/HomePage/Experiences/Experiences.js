@@ -34,6 +34,9 @@ const Experiences = () => {
 	return (
 		<section className='py-5' style={{ backgroundColor: '#000' }}>
 			<div className='Custom__Container'>
+			<div className='container-fluid'>
+				<h1 className='mb-4' style={{ color: '#fff' }}>Discover things to do</h1>
+			</div>
 				<div className='row mx-0'>
 					<div className='col-md-6 mb-4'>
 						<ExperienceItem

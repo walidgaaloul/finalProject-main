@@ -166,8 +166,10 @@ const SleepingDetails = ({ beds, roomName }) => {
       <Div699th3t>
         <Div1ocrz96>
           <Div152qbzi aria-hidden="true">
-            {Object.keys(beds).map((key, index) => {
+          {Object.keys(beds).map((key, index) => {
+              if(beds[key]>0){
               return <Span14tkmhr key={index}>{SVG[key]} </Span14tkmhr>;
+            }
             })}
           </Div152qbzi>
           <Div157yfd15>{roomName}</Div157yfd15>

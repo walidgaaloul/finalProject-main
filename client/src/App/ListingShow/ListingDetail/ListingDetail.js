@@ -63,7 +63,7 @@ const ListingDetail = ({ listing }) => {
             <S.DivDividerBorder />
           </div>
           <div>
-            <HostedBy />
+            <HostedBy  />
           </div>
           <div style={{ marginTop: '24px', marginBottom: '24px' }}>
             <S.DivDividerBorder />
