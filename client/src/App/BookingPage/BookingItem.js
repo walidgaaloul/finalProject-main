@@ -21,7 +21,7 @@ const BookingItem = ({ booking, deleteBooking }) => {
   const hideCancel = moment().isAfter(booking.checkIn, 'day');
   const imageURL =
     booking.listing.photos && booking.listing.photos.length > 0
-      ? booking.listing.photos[0].url
+      ? booking.listing.photos[0].img_url
       : '';
   return (
     <S.DivBookingItem>
@@ -55,7 +55,7 @@ const BookingItem = ({ booking, deleteBooking }) => {
         {hideCancel ? null : (
           <S.DivBookingDetail>
             <Button
-              onClick={() => deleteBooking(booking.id)}
+              onClick={() => deleteBooking(booking._id)}
               fullWidth
               variant="contained"
               color="secondary"

@@ -59,7 +59,7 @@ export const createListing = (listing) => {
   return async (dispatch, useSelector) => {
     let state = useSelector((state) => state);
     const isCreated = state.ListingReducer.isCreated;
-    const userId = state.AuthReducers.user._id;
+    const userId = state.AuthReducers.user.id;
 
     console.log('isCreatedfalse', isCreated)
 

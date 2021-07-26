@@ -60,7 +60,25 @@ export const authRequest = () => {
       dispatch({ type: types.REGISTER_FAIL, payload: error });
     }
   };
-  
+    
+//update user 
+
+export const updateUser = (user) => {
+   return async(dispatch)=>{
+  try {
+    let id = localStorage.getItem('userId');
+    const res = await axios.put(`/login/updatee_user/${id}`, {
+     ...user
+    });
+    const { data } = res;  
+  } catch ({ error }) {
+    
+    } }
+};
+
+
+
+
 /*export const registerUser = (email, firstname, lastname, password, birthday) => (dispatch) => {
     axios.post('/register', {
         email,

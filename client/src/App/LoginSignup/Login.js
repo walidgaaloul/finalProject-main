@@ -21,6 +21,9 @@ import CheckBoxWithLabelV4 from '../../shared/CheckBoxWithLabelV4';
 
 import {useEffect} from 'react'
 import {useDispatch,useSelector} from 'react-redux'
+import GoogleLogin from 'react-google-login';
+import { FaFacebookSquare, FaApple } from 'react-icons/fa';
+import { FcGoogle, FcInvite } from 'react-icons/fc';
 
 
 const Login = ({ setSignUp, setPassword, loginUser, history, demoLogin }) => {
@@ -131,7 +134,7 @@ const Login = ({ setSignUp, setPassword, loginUser, history, demoLogin }) => {
                 Forgot password?
               </Link>
             </S.DivSubtitle2>
-            <S.DivSubtitle2>
+            {/* <S.DivSubtitle2>
               <Button
                 size="large"
                 variant="contained"
@@ -143,7 +146,7 @@ const Login = ({ setSignUp, setPassword, loginUser, history, demoLogin }) => {
               >
                 Demo Login
               </Button>
-            </S.DivSubtitle2>
+            </S.DivSubtitle2> */}
           </Form>
         )}
       </Formik>
@@ -161,8 +164,54 @@ const Login = ({ setSignUp, setPassword, loginUser, history, demoLogin }) => {
             </WrapperTable>
           </Link>
         </div>
+        <div>
+						<div
+							className="row"
+							style={{ marginLeft: '20px', marginTop: '30px' }}
+						>
+							<div className="col-5" style={{ padding: 0 }}>
+								<hr />
+							</div>
+							<div
+								className="col-1"
+								style={{ padding: 0, textAlign: 'center' }}
+							>
+								or
+							</div>
+							<div className="col-5" style={{ padding: 0 }}>
+								<hr />
+							</div>
+						</div>
+					</div>
+					<div className="social-login__btn">
+							<div className="email-container">
+								<div className="email-icon-container">
+									<FcInvite style={{ fontSize: '1.5rem' }} />
+								</div>
+								<div className="email-text-container">Continue With Email</div>
+							</div>
+						</div>
+            <div className="social-login__btn">
+							<div className="facebook-container">
+								<div className="facebook-icon-container">
+									<FaFacebookSquare
+										style={{
+											fontSize: '1.5rem',
+											color: '#1873eb',
+										}}
+									/>
+								</div>
+								<div className="facebook-text-container">
+									Continue With Facebook
+								</div>
+							</div>
+						</div>
+
       </Typography>
+     
+					
     </div>
+    
   );
 };
 

@@ -8,6 +8,7 @@ import Places from './Places/Places';
 import Experiences from './Experiences/Experiences';
 import Gift from './Gift/Gift';
 import JionUs from './JionUs/JionUs';
+import Footer from '../Footer/Footer';
 
 const S = {
   DivSplashRoot: styled.div`
@@ -65,13 +66,14 @@ class Home extends Component {
               <S.SplashImage />
             </S.DivSplashGray>
             <SearchForm />
-            <Hightlight />
+            <Hightlight /><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
             
 			<Places />
 			<LiveAnyWhere />
 			<Experiences />
 			<Gift />
 			<JionUs />
+      <Footer />
           </S.DivSplashContainer>
         </S.DivSplashRoot>
       </>

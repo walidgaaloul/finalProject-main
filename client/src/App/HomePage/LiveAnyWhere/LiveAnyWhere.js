@@ -20,7 +20,7 @@ const LiveAnyWhere = () => {
 	return (
 		<div className='Custom__Container py-1'>
 			<div className='container-fluid'>
-				<h2 className='mb-4'>Live anywhere</h2>
+				<h1 className='mb-4'>Live anywhere</h1>
 			</div>
 			<div className='row mx-0'>
 				{LiveAnyWhereData.map(item => {

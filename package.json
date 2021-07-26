@@ -14,6 +14,7 @@
     "@date-io/date-fns": "^1.3.13",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.2",
     "cors": "^2.8.5",
     "date-fns": "^2.22.1",
     "dotenv": "^10.0.0",
@@ -27,6 +28,10 @@
     "paper": "^0.12.15",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "react-elastic-carousel": "^0.11.5",
+    "react-google-login": "^5.2.2",
+    "scss-spacing": "^1.0.0",
     "validator": "^13.6.0"
   },
   "_id": "back-end@1.0.0",

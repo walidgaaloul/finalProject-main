@@ -77,7 +77,7 @@ export const createBooking = (booking, listingId) => {
 };
 
 export const fetchUserBookings = () => {
-  const userId = localStorage.getItem('userId');
+ const userId = localStorage.getItem('userId');
   return async (dispatch) => {
     dispatch(startLoading());
     try {

@@ -10,7 +10,7 @@ const PhotoDisplay = ({ photos, showCarousel }) => {
         {photos && photos.length >= 1 && (
           <Grid container alignItems="stretch" style={{ height: '100%' }}>
             <DivPicsLarge item xs={6}>
-              <ImgPic src={photos[0].url} />
+              <ImgPic src={photos[0].img_url} />
             </DivPicsLarge>
             {photos[1] && (
               <DivPicsSmall
@@ -21,11 +21,11 @@ const PhotoDisplay = ({ photos, showCarousel }) => {
                 style={{ borderRight: '1px solid #484848' }}
               >
                 <DivPicContainer item xs>
-                  <ImgPic src={photos[1].url} alt="photo2" />
+                  <ImgPic src={photos[1].img_url} alt="photo2" />
                 </DivPicContainer>
                 {photos[2] && (
                   <DivPicContainer item xs>
-                    <ImgPic src={photos[2].url} alt="photo3" />
+                    <ImgPic src={photos[2].img_url} alt="photo3" />
                   </DivPicContainer>
                 )}
               </DivPicsSmall>
@@ -33,11 +33,11 @@ const PhotoDisplay = ({ photos, showCarousel }) => {
             {photos[3] && (
               <DivPicsSmall item xs container direction="column">
                 <DivPicContainer item xs>
-                  <ImgPic src={photos[3].url} alt="photo4" />
+                  <ImgPic src={photos[3].img_url} alt="photo4" />
                 </DivPicContainer>
                 {photos[4] && (
                   <DivPicContainer item xs>
-                    <ImgPic src={photos[2].url} alt="photo5" />
+                    <ImgPic src={photos[4].img_url} alt="photo5" />
                   </DivPicContainer>
                 )}
               </DivPicsSmall>
