@@ -264,11 +264,11 @@ const listingSchema = new mongoose.Schema({
     required: true,
     ref: "User",
   },
-     review: {
-       type: mongoose.Schema.Types.ObjectId,
-       required: true,
-       ref: "Review",
-     },
+    //  review: {
+    //    type: mongoose.Schema.Types.ObjectId,
+    //    required: true,
+    //    ref: "Review",
+    //  },
 
     image: {
       type: mongoose.Schema.Types.ObjectId,

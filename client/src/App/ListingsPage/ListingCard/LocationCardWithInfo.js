@@ -54,6 +54,7 @@ const LocationCardWithInfo = ({
   hoveredCardId,
 }) => {
   const [isHovered, setIsHovered] = useState(false);
+ 
   return (
     <>
       {listings.map((listing, index) => (

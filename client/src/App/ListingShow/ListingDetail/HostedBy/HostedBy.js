@@ -6,6 +6,7 @@ import { Typography } from '@material-ui/core';
 import styled from 'styled-components';
 import Avatar from '@material-ui/core/Avatar';
 import Divider from '@material-ui/core/Divider';
+import { useSelector } from 'react-redux';
 
 const S = {
   GridMargin: styled(Grid)`
@@ -25,13 +26,14 @@ const S = {
 };
 
 const HostedBy = () => {
+  const owner = useSelector((state) => state.ListingReducer.listing.owner);
   return (
     <>
       <Grid container>
         <S.GridMargin item container justify="space-between">
           <Grid item>
             <Typography variant="h5" style={{ fontWeight: 800 }}>
-              Hosted by Yanyong
+              {` Hosted by ${owner.FirstName} ${owner.LastName} `}
             </Typography>
             <Typography variant="subtitle1">
               Bangkok, Thailand · Joined in November 2014
@@ -75,6 +77,6 @@ const HostedBy = () => {
   );
 };
 
-HostedBy.propTypes = {};
+
 
 export default HostedBy;

@@ -78,18 +78,28 @@ export const createBooking = (booking, listingId) => {
 
 export const fetchUserBookings = () => {
   const userId = localStorage.getItem('userId');
+ 
   return async (dispatch) => {
     dispatch(startLoading());
     try {
+     
       let res = await axios.get(`/reservations/users/${userId}`);
       const { data } = res;
-      let bookings = data.items;
-
+      let bookings = data;
+     
       const listingGeneral = bookings.map(async (booking) => {
-        const response = await axios.get(`/reservations/${booking.listingId}/general`);
+        let resPhoto = await axios.get(`/listings/${booking.listingId}/images`);
+        booking.photos=resPhoto.data;
+        const response = await axios.get(`/listings/${booking.listingId}`);
+        const resReviews = await axios.get(`/review/${booking.listingId}/reviews`);
+        response.data.reviews=resReviews.data;
+        response.data.photos=resPhoto.data;
         return { ...booking, ...response.data };
+         
       });
+   
       const listingAndReview = await Promise.all(listingGeneral);
+      console.log('listingAndReview',listingAndReview)
       dispatch(receiveBookings(listingAndReview));
     } catch (error) {
       dispatch(receiveErrors(error.message));

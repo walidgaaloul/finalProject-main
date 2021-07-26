@@ -176,14 +176,14 @@ const Summary = ({ listing }) => {
       <div>
         <div style={{ marginTop: '24px', marginBottom: '24px' }}>
         { <div className="">
-								<AccountCircleIcon />
+								{/*<AccountCircleIcon />*/}
 								{/* { <span>{`Hosted by ${owner.FirstName} ${owner.LastName} .`}</span> } */}
 							</div> }
           <Div4efw5a className="4efw5a">
             <Spanmvzifm4 className="mvzifm4">
             <HomeOutlinedIcon /><span style={{ color: '#231341' }}>{room_type}</span>
             </Spanmvzifm4>
-          </Div4efw5a>
+  </Div4efw5a>
           <Div2h22gn className="2h22gn">
             <Div1hpgssa1 className="1hpgssa1">
               <div style={{ marginBottom: '6px' }}>

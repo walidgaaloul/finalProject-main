@@ -57,7 +57,7 @@ export const fetchReviews = (listingId) => {
   return async (dispatch) => {
     try {
       let res = await axios.get(`/review/${listingId}/reviews`);
-      const reviews = res.data.items;
+      const reviews = res.data;
       const resReviews = reviews.map((review) => {
         review.guest_name = 'Collette';
         review.guest_photo = 'https://s3-us-west-1.amazonaws.com/guestpics/50BgQSS.jpg';

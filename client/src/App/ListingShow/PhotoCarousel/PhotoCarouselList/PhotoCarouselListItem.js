@@ -9,7 +9,7 @@ const PhotoCarouselListItem = (props) => {
   return (
     <LiCarouselListItem onClick={handleCarouselClick}>
       <ButtonItem>
-        <ImgItem src={props.photo.url} alt="pic" />
+        <ImgItem src={props.photo.img_url} alt="pic" />
       </ButtonItem>
     </LiCarouselListItem>
   );

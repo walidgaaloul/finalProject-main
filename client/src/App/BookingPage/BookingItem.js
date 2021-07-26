@@ -11,7 +11,10 @@ import RatingsList from '../ListingShow/ListingDetail/Reviews/RatingsList';
 import Box from '@material-ui/core/Box';
 
 const BookingItem = ({ booking, deleteBooking }) => {
-  
+  console.log('booking',booking)
+
+  console.log('deleteBooking',deleteBooking)
+
   let guests = booking.guests;
   guests = guests > 1 ? `${guests} guests` : `${guests} guest`;
 
@@ -20,8 +23,8 @@ const BookingItem = ({ booking, deleteBooking }) => {
 
   const hideCancel = moment().isAfter(booking.checkIn, 'day');
   const imageURL =
-    booking.listing.photos && booking.listing.photos.length > 0
-      ? booking.listing.photos[0].url
+    booking.photos && booking.photos.length > 0
+      ? booking.photos[0].img_url
       : '';
   return (
     <S.DivBookingItem>
@@ -33,7 +36,7 @@ const BookingItem = ({ booking, deleteBooking }) => {
       <S.DivBookingInfo>
         <StyledLink to={`/listings/${booking.listingId}`}>
           <Typography variant="h4" style={{ margin: '16px 0' }}>
-            {booking.listing.listing_title}
+            {booking.listing_title}
           </Typography>
         </StyledLink>
         <Typography variant="subtitle1">
@@ -41,7 +44,7 @@ const BookingItem = ({ booking, deleteBooking }) => {
         </Typography>
         <Typography variant="subtitle1">{guests}</Typography>
         <Typography variant="h6" style={{ margin: '16px 0' }}>
-          {booking.listing.street}
+          {booking.street}
         </Typography>
         <Grid>
           <StarRating rating={getTotalRating(booking.reviews)} small />
@@ -55,7 +58,7 @@ const BookingItem = ({ booking, deleteBooking }) => {
         {hideCancel ? null : (
           <S.DivBookingDetail>
             <Button
-              onClick={() => deleteBooking(booking.id)}
+              onClick={() => deleteBooking(booking._id)}
               fullWidth
               variant="contained"
               color="secondary"

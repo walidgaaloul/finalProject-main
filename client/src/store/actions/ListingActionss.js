@@ -24,6 +24,7 @@ export const receiveListings = (listings) => ({
 });
 
 export const receiveListing = (listing) => {
+  console.log('hhhhhhhhhhhhhhhhh')
   const formatedListing = {
     ...listing,
     center: { lat: '40.785091', lng: '73.968285' },
@@ -60,13 +61,6 @@ export const createListing = (listing) => {
     let state = useSelector((state) => state);
     const isCreated = state.ListingReducer.isCreated;
     const userId = state.AuthReducers.user._id;
-
-    console.log('isCreatedfalse', isCreated)
-
-
-
-    console.log('userId', userId)
-    console.log('isCreated', isCreated)
     try {
 
       let res = await axios.post(`/listings`, {
@@ -278,13 +272,15 @@ export const fetchListingsFilter = (search) => {
   console.log(search);
   return async (dispatch) => {
     let res = await axios.get(`/listings/search${search}`);
-    const listings = res.data.items;
+    const listings = res.data;
 
     for (let listing of listings) {
-      let resPhoto = await axios.get(`/listings/${listing.id}/images`);
-      listing.photos = resPhoto.data.items;
-      let resReview = await axios.get(`/listings/${listing.id}/reviews`);
-      listing.reviews = resReview.data.items;
+      let resPhoto = await axios.get(`/listings/${listing._id}/images`);
+      listing.photos = resPhoto.data;
+      console.log('listing.photos',resPhoto.data)
+      let resReview = await axios.get(`/listings/${listing._id}/reviews`);
+      listing.reviews = resReview.data;
+      console.log('resReview.data',resReview.data)
     }
     dispatch(receiveListings(listings));
   };

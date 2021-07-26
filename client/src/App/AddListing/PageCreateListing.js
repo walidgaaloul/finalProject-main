@@ -76,8 +76,8 @@ class PageSelectStep extends Component {
                             city: '',
                             state: '',
                             center: {
-                              lat: 20.99912999999998,
-                              lng: 105.84042999999997,
+                              lat: 35.900175,
+                              lng: 10.407960,
                             },
                           }}
                           onSubmit={(values, { setSubmitting }) => {

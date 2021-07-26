@@ -26,12 +26,12 @@ const CardInfo = ({ listing }) => {
   const displayAmentities = Object.keys(DISPLAY_AMENITIES).filter(
     (key) => listing.amenities[key]
   );
- 
+  console.log('listingsxxxxx',listing)
   const renderAmentities = displayAmentities.map((a) => DISPLAY_AMENITIES[a]).join(' · ');
   return (
     <S.DivInfoContentPadding>
       <S.SpanContainer>
-        <Link component={StyledLink} to={`listings/${listing.id}`}>
+        <Link component={StyledLink} to={`listings/${listing._id}`}>
           <S.DivFixUnderline>
             <S.DivMargin>
               <S.DivType>{HOME_TYPES[listing.room_type]}</S.DivType>

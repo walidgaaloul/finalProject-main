@@ -154,7 +154,7 @@ router.post("/sleepArgs", authMiddleware, async (req, res) => {
 
 
 //Get all Rooms
-router.get("/list", async (req, res) => {
+router.get("/search", async (req, res) => {
   try {
     const listings = await Listing.find({});
     res.send(listings);
@@ -305,14 +305,14 @@ router.get("/:id/reviews/", async (req, res) => {
 });
 
 //////////////////
-router.get("/search", authMiddleware, async (req, res) => {
-  try {
-    const listings = await Listing.find({ owner: req.params.id, review: req.params.id, image: req.params.id });
-    res.send(listings);
-  } catch (err) {
-    res.status(500).send();
-  }
-});
+// router.get("/search", authMiddleware, async (req, res) => {
+//   try {
+//     const listings = await Listing.find({ owner: req.params.id, review: req.params.id, image: req.params.id });
+//     res.send(listings);
+//   } catch (err) {
+//     res.status(500).send();
+//   }
+// });
 
 
 //Get Rooms by image

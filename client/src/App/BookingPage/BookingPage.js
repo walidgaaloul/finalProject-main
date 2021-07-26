@@ -14,9 +14,9 @@ const BookingPage = ({ bookings, deleteBooking, fetchUserBookings }) => {
   useEffect(() => {
     fetchUserBookings();
   }, []);
-
+  console.log('bookings',bookings)
   const bookingLists = (list) =>
-    console.log('list', list) || (
+    (
       <Grid container justify="center" alignItems="center" spacing={1}>
         {list &&
           list.length > 0 &&
@@ -27,12 +27,16 @@ const BookingPage = ({ bookings, deleteBooking, fetchUserBookings }) => {
           ))}
       </Grid>
     );
-  const oldBookings = bookings.filter((el) =>
-    moment().isAfter(moment(el.checkIn), 'day')
+  const oldBookings = bookings.filter(
+    (el) =>moment().isAfter(moment(el.checkIn), 'day')
   );
+
+
   const newBookings = bookings.filter(
     (el) => !moment().isAfter(moment(el.checkIn), 'day')
   );
+
+
   return (
     <Grid container justify="center" alignItems="center">
       <Grid item xs={7}>

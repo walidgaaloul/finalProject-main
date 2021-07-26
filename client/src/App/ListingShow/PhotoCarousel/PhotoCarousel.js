@@ -144,7 +144,6 @@ class PhotoCarousel extends Component {
 
   render() {
     const photo = this.props.photos[this.state.index] || {};
-
     return (
       <DivPhotoGalleryCarousel hide={this.props.isHidden} style={{ top: window.scrollY }}>
         <DivTable>

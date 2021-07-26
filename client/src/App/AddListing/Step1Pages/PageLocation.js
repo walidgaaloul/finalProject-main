@@ -82,7 +82,7 @@ class PageLocation extends Component {
                   }}
                   draggable={draggable}
                   bootstrapURLKeys={bootstrapURLKeys}
-                  defaultCenter={{ lat: 13.2904027, lng: 108.4265113 }}
+                  defaultCenter={{ lat: 35.900175, lng: 10.407960 }}
                   center={values.center}
                   zoom={zoom}
                   hoverDistance={50}

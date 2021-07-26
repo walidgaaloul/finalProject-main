@@ -12,7 +12,7 @@ const ListingsPage = ({ fetchListingsFilter, listings, history, location,fetchAl
   };
 
   useEffect(() => {
-    fetchAllListing();
+    // fetchAllListing();
     // fetching listings base on url
      const search = location.search;
      fetchListingsFilter(search);
