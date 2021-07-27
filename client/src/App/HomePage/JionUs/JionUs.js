@@ -15,7 +15,7 @@ const JionUs = () => {
   return (
     <section className="pb-5 pt-2">
       <div className="Custom__Container">
-        <h2 className="mb-4 pl-3">Join millions of hosts on Airbnb</h2>
+        <h2 className="mb-4 pl-3">Join millions of hosts on TUNI-Home</h2>
         <div className="row mx-0">
           {JionUsData.map(item => {
             return (

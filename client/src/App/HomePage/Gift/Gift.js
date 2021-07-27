@@ -11,7 +11,7 @@ const Gift = () => {
 							<h1>
 								Still after that <br /> perfect gift?
 							</h1>
-							<p>Surprise them with an Airbnb gift card.</p>
+							<p>Surprise them with RENTALS gift card.</p>
 						</div>
 						<div className='d-flex justify-content-start align-items-center'>
 							<button className='btn btn-light btn-lg'>

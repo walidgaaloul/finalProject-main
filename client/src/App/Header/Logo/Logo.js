@@ -45,7 +45,14 @@ const Logo = ({ isHome }) => {
       <Link to="/">
         <S.WrapperLogoSvg>
           <S.Wrapper2>
-            <S.WrapperSvg transparent={isHome}>{SvgIcon.BnbSvg}</S.WrapperSvg>
+            <S.WrapperSvg transparent={isHome}>
+            <div className="header2__icon">
+            <img
+              src="home6.png"
+              alt="logo"
+            />
+          </div>
+            </S.WrapperSvg>
           </S.Wrapper2>
         </S.WrapperLogoSvg>
       </Link>

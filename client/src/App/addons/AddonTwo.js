@@ -20,10 +20,10 @@ const AddonTwo = () => {
               <span className="text-muted">December 15, 2020</span>
               <h3>
                 This New Year’s Eve, Sleep Under the Times Square Ball with
-                Airbnb + Nasdaq
+                RENTALS
               </h3>
               <p>
-                Airbnb and Nasdaq are coming together to host a magical stay
+              RENTALS and Nasdaq are coming together to host a magical stay
                 under New Year’s Eve ball in Times Square to close out 2020,
                 hosted by Mariah Carey.
               </p>
@@ -37,13 +37,13 @@ const AddonTwo = () => {
 
               <div className="card-title">
                 <h5 className="p-2">
-                  Airbnb Delivers $2.6 Billion in Taxes to Governments Around
+                RENTALS Delivers $2.6 Billion in Taxes to Governments Around
                   the World
                 </h5>
               </div>
               <div className="card-body">
                 <p>
-                  Airbnb is committed to helping our community pay its fair
+                RENTALS is committed to helping our community pay its fair
                   share of taxes. We are collecting and remitting taxes in more
                   than 650 jurisdictions, covering thousands of cities.
                 </p>

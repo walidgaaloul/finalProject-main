@@ -14,6 +14,7 @@ function HostPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <>
       <HostHeader navbar={navbar} setNavbar={setNavbar} />

@@ -81,7 +81,7 @@ class Footer extends Component {
                     <Div1t9ulrox>
                       <section>
                         <H414i3z6h>
-                          <Ditw4pe52>Airbnb</Ditw4pe52>
+                          <Ditw4pe52>RENTALS</Ditw4pe52>
                         </H414i3z6h>
                         <Ulll34wp>
                           <Lio2jk4c>
@@ -125,7 +125,7 @@ class Footer extends Component {
                               target="_blank"
                               rel="noopener noreferrer"
                             >
-                              Airbnb Citizen
+                              RENTALS Citizen
                             </A1jrx6hxv>
                           </Lio2jk4c>
                           <Lio2jk4c>
@@ -141,7 +141,7 @@ class Footer extends Component {
                             <A1jrx6hxv href="/things-to-do">Guidebooks</A1jrx6hxv>
                           </Lio2jk4c>
                           <Lio2jk4c>
-                            <A1jrx6hxv href="https://airbnbmag.com">Airbnbmag</A1jrx6hxv>
+                            <A1jrx6hxv href="https://airbnbmag.com">Rentalsmag</A1jrx6hxv>
                           </Lio2jk4c>
                           <Lio2jk4c>
                             <A1jrx6hxv href="/events">
@@ -257,10 +257,10 @@ class Footer extends Component {
                         <div>
                           <WrapperTable>
                             <WrapperCell>
-                              <div style={{ marginRight: '8px' }}>{svg.airbnb}</div>
+                              {/* <div style={{ marginRight: '8px' }}>{svg.airbnb}</div> */}
                             </WrapperCell>
                             <WrapperCell>
-                              <Div1rbmiub1>© Airbnb, Inc.</Div1rbmiub1>
+                              <Div1rbmiub1>© RENTALS, Inc.</Div1rbmiub1>
                             </WrapperCell>
                           </WrapperTable>
                         </div>

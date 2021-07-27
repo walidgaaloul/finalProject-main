@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PropTypes from 'prop-types';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
-import { Typography } from '@material-ui/core';
+import { Typography, useRadioGroup } from '@material-ui/core';
 import styled from 'styled-components';
 import Avatar from '@material-ui/core/Avatar';
 import Divider from '@material-ui/core/Divider';
@@ -25,20 +25,19 @@ const S = {
   `,
 };
 
-const HostedBy = () => {
-  const owner=useSelector((state) =>state.ListingReducer.listing.owner);
+const HostedBy = (owner) => {
+
+  console.log('owner',owner['FirstName'])
   return (
     <>
       <Grid container>
         <S.GridMargin item container justify="space-between">
           <Grid item>
             <Typography variant="h5" style={{ fontWeight: 800 }}>
-      {/* <span>{` Hosted by ${owner.FirstName} ${owner.LastName} `}</span> */}
-
-              Hosted by Yanyong
+              {` Hosted by ${owner.FirstName} `}
             </Typography>
             <Typography variant="subtitle1">
-              Bangkok, Thailand · Joined in November 2014
+              sousse, tunnis · Joined in November 2020
             </Typography>
           </Grid>
           <Grid item xs={1}>
@@ -79,6 +78,6 @@ const HostedBy = () => {
   );
 };
 
-HostedBy.propTypes = {};
+
 
 export default HostedBy;

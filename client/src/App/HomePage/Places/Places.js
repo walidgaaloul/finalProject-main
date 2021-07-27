@@ -6,14 +6,14 @@ import Place from './Place/Place';
 
 // import placesData from '../../Data/places.json';
 
-import image1 from '../../../assets/home_images/places/imageUrl1.jpg';
-import image2 from '../../../assets/home_images/places/imageUrl2.jpg';
-import image3 from '../../../assets/home_images/places/imageUrl3.jpg';
-import image4 from '../../../assets/home_images/places/imageUrl4.jpg';
-import image5 from '../../../assets/home_images/places/imageUrl5.jpg';
-import image6 from '../../../assets/home_images/places/imageUrl6.jpg';
-import image7 from '../../../assets/home_images/places/imageUrl7.jpg';
-import image8 from '../../../assets/home_images/places/imageUrl8jpg.webp';
+import image1 from '../../../assets/home_images/places/tunis2.jpg';
+import image2 from '../../../assets/home_images/places/hamamet.jpg';
+import image3 from '../../../assets/home_images/places/marsa.jpg';
+import image4 from '../../../assets/home_images/places/sousse1.jpg';
+import image5 from '../../../assets/home_images/places/hergla1.jpg';
+import image6 from '../../../assets/home_images/places/korba1.jpg';
+import image7 from '../../../assets/home_images/places/imageUrl6.jpg';
+import image8 from '../../../assets/home_images/places/mahdia1.jpg';
 
 const placesData = [
 	{

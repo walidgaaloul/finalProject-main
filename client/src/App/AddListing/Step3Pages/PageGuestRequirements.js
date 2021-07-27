@@ -15,17 +15,17 @@ class PageGuestRequirements extends Component {
       <section>
         <S.WrapperHeader>
           <Typography variant="h5" style={{ fontWeight: 'bold' }}>
-            Review Airbnb’s guest requirements
+            Review RENTALS’s guest requirements
           </Typography>
         </S.WrapperHeader>
         <S.WrapperText1>
           <Typography variant="body1">
-            Airbnb has requirements that all guests must meet before they book.
+            RENTALS has requirements that all guests must meet before they book.
           </Typography>
         </S.WrapperText1>
         <div style={{ marginBottom: 30 }}>
           <S.WrapperSelection1>
-            <S.TypographyH6 variant="h6">All Airbnb guests must provide:</S.TypographyH6>
+            <S.TypographyH6 variant="h6">All RENTALS guests must provide:</S.TypographyH6>
           </S.WrapperSelection1>
           <WrapperTable style={{ paddingBottom: 6 }}>
             <WrapperCell style={{ paddingLeft: 8, paddingRight: 16 }}>

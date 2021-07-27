@@ -13,7 +13,7 @@ var AddonOne = () => {
       <div className="global-container container">
         <div className="global-content">
           <div className="container-nav">
-            <h1 className="kb-title">Airbnb Terms of Use</h1>
+            <h1 className="kb-title">RENTALS Terms of Use</h1>
             <div className="pane-wrapper">
               <div className="left-pane">
                 <section>
@@ -21,18 +21,18 @@ var AddonOne = () => {
                     <div className="c-wrapper">
                       <div>
                         <p>
-                          Airbnb provides a personalized subscription service
+                        RENTALS provides a personalized subscription service
                           that allows our members to access movies and shows
-                          (“Airbnb content”) streamed over the Internet to
+                          (“RENTALS  content”) streamed over the Internet to
                           certain Internet-connected s, computers and other
-                          devices ("Airbnb ready devices").
+                          devices ("RENTALS  ready devices").
                         </p>
                         <p>
                           These Terms of Use govern your use of our service. As
-                          used in these Terms of Use, "Airbnb service", "our
+                          used in these Terms of Use, "RENTALS  service", "our
                           service" or "the service" means the personalized
-                          service provided by Airbnb for discovering and
-                          watching Airbnb content, including all features and
+                          service provided by RENTALS  for discovering and
+                          watching RENTALS  content, including all features and
                           functionalities, recommendations and reviews, the
                           website, and user interfaces, as well as all content
                           and software associated with our service.
@@ -43,9 +43,9 @@ var AddonOne = () => {
                               <strong>Membership</strong>
                               <br />
                               <br />
-                              1.1. Your Airbnb membership will continue until
-                              terminated. To use the Airbnb service you must
-                              have Internet access and a Airbnb ready device,
+                              1.1. Your RENTALS membership will continue until
+                              terminated. To use the RENTALS service you must
+                              have Internet access and a RENTALS ready device,
                               and provide us with one or more Payment Methods.
                               “Payment Method” means a current, valid, accepted
                               method of payment, as may be updated from time to
@@ -67,9 +67,9 @@ var AddonOne = () => {
                               limitations, which will be disclosed at your
                               sign-up or in other communications made available
                               to you. You can find specific details regarding
-                              your Airbnb membership by visiting our website and
+                              your RENTALS membership by visiting our website and
                               clicking on the "Account" link available at the
-                              top of the pages of the Airbnb website under your
+                              top of the pages of the RENTALS website under your
                               profile name.
                             </p>
                           </li>
@@ -78,7 +78,7 @@ var AddonOne = () => {
                               <strong>Free Trials</strong>
                               <br />
                               <br />
-                              2.1. Your Airbnb membership may start with a free
+                              2.1. Your RENTALS membership may start with a free
                               trial. The duration of the free trial period of
                               your membership will be specified during sign-up
                               and is intended to allow new members and certain
@@ -86,16 +86,16 @@ var AddonOne = () => {
                               <br />
                               <br />
                               2.2. Free trial eligibility is determined by
-                              Airbnb at its sole discretion and we may limit
+                              RENTALS at its sole discretion and we may limit
                               eligibility or duration to prevent free trial
                               abuse. We reserve the right to revoke the free
                               trial and put your account on hold in the event
                               that we determine that you are not eligible.
                               Members of households with an existing or recent
-                              Airbnb membership are not eligible. We may use
+                              RENTALS membership are not eligible. We may use
                               information such as device ID, method of payment
                               or an account email address used with an existing
-                              or recent Airbnb membership to determine
+                              or recent RENTALS membership to determine
                               eligibility. For combinations with other offers,
                               restrictions may apply.
                               <br />
@@ -119,7 +119,7 @@ var AddonOne = () => {
                               <span className="underline">
                                 Billing Cycle.
                               </span>{" "}
-                              The membership fee for the Airbnb service and any
+                              The membership fee for the RENTALS service and any
                               other charges you may incur in connection with
                               your use of the service, such as taxes and
                               possible transaction fees, will be charged to your
@@ -147,7 +147,7 @@ var AddonOne = () => {
                               <span className="underline">
                                 Payment Methods.
                               </span>{" "}
-                              To use the Airbnb service you must provide one or
+                              To use the RENTALS service you must provide one or
                               more Payment Methods. You authorize us to charge
                               any Payment Method associated to your account in
                               case your primary Payment Method is declined or no
@@ -183,27 +183,27 @@ var AddonOne = () => {
                               <span className="underline">
                                 Cancellation.
                               </span>{" "}
-                              You can cancel your Airbnb membership at any time,
-                              and you will continue to have access to the Airbnb
+                              You can cancel your RENTALS membership at any time,
+                              and you will continue to have access to the RENTALS
                               service through the end of your billing period. To
                               the extent permitted by the applicable law,
                               payments are non-refundable and we do not provide
                               refunds or credits for any partial membership
-                              periods or unwatched Airbnb content. To cancel, go
+                              periods or unwatched RENTALS content. To cancel, go
                               to the "Account" page and follow the instructions
                               for cancellation. If you cancel your membership,
                               your account will automatically close at the end
                               of your current billing period. To see when your
                               account will close, click "Billing details" on the
-                              "Account" page. If you signed up for Airbnb using
+                              "Account" page. If you signed up for RENTALS using
                               your account with a third party as a Payment
-                              Method and wish to cancel your Airbnb membership,
+                              Method and wish to cancel your RENTALS membership,
                               you may need to do so through such third party,
                               for example by visiting your account with the
                               applicable third party and turning off auto-renew,
-                              or unsubscribing from the Airbnb service through
+                              or unsubscribing from the RENTALS service through
                               that third party. You may also find billing
-                              information about your Airbnb membership by
+                              information about your RENTALS membership by
                               visiting your account with the applicable third
                               party.
                               <br />
@@ -221,29 +221,29 @@ var AddonOne = () => {
                           </li>
                           <li>
                             <p>
-                              <strong>Airbnb Service</strong>
+                              <strong>RENTALS Service</strong>
                               <br />
                               <br />
                               4.1. You must be 18 years of age, or the age of
                               majority in your province, territory or country,
-                              to become a member of the Airbnb service. Minors
+                              to become a member of the RENTALS service. Minors
                               may only use the service under the supervision of
                               an adult.
                               <br />
                               <br />
-                              4.2. The Airbnb service and any content viewed
+                              4.2. The RENTALS service and any content viewed
                               through the service are for your personal and
                               non-commercial use only and may not be shared with
                               individuals beyond your household. During your
-                              Airbnb membership we grant you a limited,
+                              RENTALS membership we grant you a limited,
                               non-exclusive, non-transferable right to access
-                              the Airbnb service and view Airbnb content. Except
+                              the RENTALS service and view RENTALS content. Except
                               for the foregoing, no right, title or interest
                               shall be transferred to you. You agree not to use
                               the service for public performances.
                               <br />
                               <br />
-                              4.3. You may view the Airbnb content primarily
+                              4.3. You may view the RENTALS content primarily
                               within the country in which you have established
                               your account and only in geographic locations
                               where we offer our service and have licensed such
@@ -255,17 +255,17 @@ var AddonOne = () => {
                               "Account" page.
                               <br />
                               <br />
-                              4.4. The Airbnb service, including the content
+                              4.4. The RENTALS service, including the content
                               library, is regularly updated. In addition, we
                               continually test various aspects of our service,
                               including our website, user interfaces,
-                              promotional features and availability of Airbnb
+                              promotional features and availability of RENTALS
                               content. You can turn off tests participation at
                               any time by visiting the "Account" page and
                               changing the "Test participation" settings.
                               <br />
                               <br />
-                              4.5. Some Airbnb content is available for
+                              4.5. Some RENTALS content is available for
                               temporary download and offline viewing on certain
                               supported devices (“Offline Titles”). Limitations
                               apply, including restrictions on the number of
@@ -280,7 +280,7 @@ var AddonOne = () => {
                               not be playable while you are in that country.
                               <br />
                               <br />
-                              4.6. You agree to use the Airbnb service,
+                              4.6. You agree to use the RENTALS service,
                               including all features and functionalities
                               associated therewith, in accordance with all
                               applicable laws, rules and regulations, or other
@@ -291,22 +291,22 @@ var AddonOne = () => {
                               sale, or use (except as explicitly authorized in
                               these Terms of Use) content and information
                               contained on or obtained from or through the
-                              Airbnb service. You also agree not to: circumvent,
+                              RENTALS service. You also agree not to: circumvent,
                               remove, alter, deactivate, degrade or thwart any
-                              of the content protections in the Airbnb service;
+                              of the content protections in the RENTALS service;
                               use any robot, spider, scraper or other automated
-                              means to access the Airbnb service; decompile,
+                              means to access the RENTALS service; decompile,
                               reverse engineer or disassemble any software or
                               other products or processes accessible through the
-                              Airbnb service; insert any code or product or
-                              manipulate the content of the Airbnb service in
+                              RENTALS service; insert any code or product or
+                              manipulate the content of the RENTALS service in
                               any way; or use any data mining, data gathering or
                               extraction method. In addition, you agree not to
                               upload, post, e-mail or otherwise send or transmit
                               any material designed to interrupt, destroy or
                               limit the functionality of any computer software
                               or hardware or telecommunications equipment
-                              associated with the Airbnb service, including any
+                              associated with the RENTALS service, including any
                               software viruses or any other computer code, files
                               or programs. We may terminate or restrict your use
                               of our service if you violate these Terms of Use
@@ -314,7 +314,7 @@ var AddonOne = () => {
                               service.
                               <br />
                               <br />
-                              4.7. The quality of the display of the Airbnb
+                              4.7. The quality of the display of the RENTALS
                               content may vary from device to device, and may be
                               affected by a variety of factors, such as your
                               location, the bandwidth available through and/or
@@ -337,39 +337,39 @@ var AddonOne = () => {
                               for all Internet access charges. Please check with
                               your Internet provider for information on possible
                               Internet data usage charges. The time it takes to
-                              begin watching Airbnb content will vary based on a
+                              begin watching RENTALS content will vary based on a
                               number of factors, including your location,
                               available bandwidth at the time, the content you
-                              have selected and the configuration of your Airbnb
+                              have selected and the configuration of your RENTALS
                               ready device.
                               <br />
                               <br />
-                              4.8. Airbnb software is developed by, or for,
-                              Airbnb and is designed to enable viewing of Airbnb
-                              content through Airbnb ready devices. This
+                              4.8. RENTALS software is developed by, or for,
+                              RENTALS and is designed to enable viewing of RENTALS
+                              content through RENTALS ready devices. This
                               software may vary by device and medium, and
                               functionalities and features may also differ
                               between devices. You acknowledge that the use of
                               the service may require third party software that
                               is subject to third party licenses. You agree that
                               you may automatically receive updated versions of
-                              the Airbnb and related third-party software.
+                              the RENTALS and related third-party software.
                             </p>
                           </li>
                           <li>
                             <p>
                               <strong>Passwords and Account Access.</strong> The
-                              member who created the Airbnb account and whose
+                              member who created the RENTALS account and whose
                               Payment Method is charged (the "Account Owner")
-                              has access and control over the Airbnb account and
-                              the Airbnb ready devices that are used to access
+                              has access and control over the RENTALS account and
+                              the RENTALS ready devices that are used to access
                               our service and is responsible for any activity
-                              that occurs through the Airbnb account. To
+                              that occurs through the RENTALS account. To
                               maintain control over the account and to prevent
                               anyone from accessing the account (which would
                               include information on viewing history for the
                               account), the Account Owner should maintain
-                              control over the Airbnb ready devices that are
+                              control over the RENTALS ready devices that are
                               used to access the service and not reveal the
                               password or details of the Payment Method
                               associated with the account to anyone. You are
@@ -377,7 +377,7 @@ var AddonOne = () => {
                               accuracy of the information you provide to us
                               relating to your account. We can terminate your
                               account or place your account on hold in order to
-                              protect you, Airbnb or our partners from identity
+                              protect you, RENTALS or our partners from identity
                               theft or other fraudulent activity.
                             </p>
                           </li>
@@ -386,7 +386,7 @@ var AddonOne = () => {
                               <strong>
                                 Warranties and Limitations on Liability.
                               </strong>{" "}
-                              The Airbnb service is provided "as is" and without
+                              The RENTALS service is provided "as is" and without
                               warranty or condition. In particular, our service
                               may not be uninterrupted or error-free. You waive
                               all special, indirect and consequential damages
@@ -399,13 +399,13 @@ var AddonOne = () => {
                           <li>
                             <p>
                               <strong>Class Action Waiver.</strong> WHERE
-                              PERMITTED UNDER THE APPLICABLE LAW, YOU AND Airbnb
+                              PERMITTED UNDER THE APPLICABLE LAW, YOU AND RENTALS
                               AGREE THAT EACH MAY BRING CLAIMS AGAINST THE OTHER
                               ONLY IN YOUR OR ITS INDIVIDUAL CAPACITY, AND NOT
                               AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED
                               CLASS OR REPRESENTATIVE PROCEEDING. Further, where
                               permitted under the applicable law, unless both
-                              you and Airbnb agree otherwise, the court may not
+                              you and RENTALS agree otherwise, the court may not
                               consolidate more than one person's claims with
                               your claims, and may not otherwise preside over
                               any form of a representative or class proceeding.
@@ -429,11 +429,11 @@ var AddonOne = () => {
                               <span className="underline">
                                 Unsolicited Materials.
                               </span>{" "}
-                              Airbnb does not accept unsolicited materials or
-                              ideas for Airbnb content and is not responsible
+                              RENTALS does not accept unsolicited materials or
+                              ideas for RENTALS content and is not responsible
                               for the similarity of any of its content or
                               programming in any media to materials or ideas
-                              transmitted to Airbnb.
+                              transmitted to RENTALS.
                               <br />
                               <br />
                               8.3.{" "}
@@ -442,7 +442,7 @@ var AddonOne = () => {
                               </span>{" "}
                               To find more information about our service and its
                               features or if you need assistance with your
-                              account, please visit the Airbnb Help Center on
+                              account, please visit the RENTALS Help Center on
                               our website. In certain instances, Customer
                               Service may best be able to assist you by using a
                               remote access support tool through which we have
@@ -470,7 +470,7 @@ var AddonOne = () => {
                               <span className="underline">
                                 Changes to Terms of Use and Assignment.
                               </span>{" "}
-                              Airbnb may, from time to time, change these Terms
+                              RENTALS may, from time to time, change these Terms
                               of Use. We will notify you at least 30 days before
                               such changes apply to you. We may assign or
                               transfer our agreement with you including our

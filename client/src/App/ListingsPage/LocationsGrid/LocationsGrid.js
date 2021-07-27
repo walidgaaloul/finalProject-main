@@ -33,8 +33,8 @@ const LocationsGrid = ({ listings, mapShowing }) => {
   };
   console.log('offset',offset)
   console.log('mapShowing',mapShowing)
-  console.log('resultsPerPage',resultsPerPage)
-  console.log('listings',listings)
+  console.log('mapShowing',resultsPerPage)
+
 
 
 console.log('locationsSlicedDownOnPage',locationsSlicedDownOnPage)

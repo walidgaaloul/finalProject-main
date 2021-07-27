@@ -67,7 +67,7 @@ function Host({ navbar }, props) {
 				<div className="row mt-5 pb-5 test">
 					<div className="col-xl-4 col-md-5 col-12">
 						<div className="host-container">
-							<h1 className="host-header">Host your home on Airbnb</h1>
+							<h1 className="host-header">Host your home on RENTALS</h1>
 							<div className="host-details">
 								<p className="host-parg">
 									Join a vibrant community of hosts, create memorable
