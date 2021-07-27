@@ -57,7 +57,7 @@ const ListingDetail = ({ listing }) => {
             <S.DivDividerBorder />
           </div>
           <div>
-            <ListingReview />
+            <ListingReview reviews={listing.reviews} />
           </div>
           <div style={{ marginTop: '24px', marginBottom: '24px' }}>
             <S.DivDividerBorder />

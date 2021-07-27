@@ -14,22 +14,22 @@ const Footer = () => {
               <h4>ABOUT</h4>
             </li>
             <Link to="/about">
-              <li>How Airbnb works</li>
+              <li>How RENTALS works</li>
             </Link>
             <Link to="/become_host">
               <li>News Room</li>
             </Link>
             <Link to="/about">
-              <li>Airbnb Plus</li>
+              <li>RENTALS Plus</li>
             </Link>
             <Link to="/associates">
-              <li>Airbnb Luxe</li>
+              <li>RENTALS Luxe</li>
             </Link>
             <Link to="/terms">
               <li>HotelTonight</li>
             </Link>
             <Link to="/about">
-              <li>Airbnb for Work</li>
+              <li>RENTALS for Work</li>
             </Link>
             <Link to="/safty">
               <li>Olympics</li>
@@ -54,7 +54,7 @@ const Footer = () => {
               <li>Accessibility</li>
             </Link>
             <Link to="/associates">
-              <li>Airbnb Associates</li>
+              <li>RENTALS Associates</li>
             </Link>
             <Link to="/safty">
               <li>Frontline Stays</li>
@@ -141,7 +141,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright text-center">
-        © 2021 , Inc. All rights reserved
+        © 2021 RENTALS , Inc. All rights reserved
       </div>
     </footer>
   );

@@ -66,6 +66,7 @@ const RegCreatePage = CREATE_PAGES.join('|');
 const RegUpdatePage = UPDATE_PAGES.join('|');
 const routes = (
   <Switch>
+    <Route component={HostPage} path="/become_host" />
     <AuthRoute
       path={`/become-a-host/:listingId(\\d+)/:page(${RegUpdatePage})`}
       component={AddListing}
@@ -92,7 +93,7 @@ const routes = (
 					<Route path="/safty" component={AddonThree} />
 					<Route path="/associates" component={AddonFour} />
 					<Route path="/fighting_racism" component={AddonFive} />
-          <Route component={HostPage} path="/become_host" />
+          
 
     <NotAuthRoute path="/password" component={withFooter(Password)} />
     <NotAuthRoute path="/login" component={withFooter(Login)} />

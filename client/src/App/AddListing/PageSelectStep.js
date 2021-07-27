@@ -143,7 +143,7 @@ const PageSelectStep = ({
             <S.WrapperLeft>
               <div style={{ marginBottom: 30 }}>
                 <Typography variant="h4" style={{ marginBottom: 16 }}>
-                  Become an Airbnb host
+                  Become an RENTALS host
                 </Typography>
                 <Typography variant="body1">
                   Now let’s get some details about your place so you can publish your

@@ -45,8 +45,9 @@ export class AddLisitingHeader extends Component {
     return (
       <S.DivHeaderContainer>
         <WrapperTable fullWidth>
+          
           <S.WrapperLogoSvg>
-            <S.Svg>{SvgIcon.BnbSvg}</S.Svg>
+            {/* <S.Svg>{SvgIcon.BnbSvg}</S.Svg> */}
           </S.WrapperLogoSvg>
           <WrapperCell />
           <WrapperCell style={{ width: '4%' }}>

@@ -7,6 +7,7 @@ function CardOne() {
     details: "Hosts a tiny house in Atlanta",
     checkout: "Check out some tiny houses",
   };
+
   return (
     <>
       <div className="carousol-container">

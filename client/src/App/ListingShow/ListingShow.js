@@ -24,11 +24,10 @@ const ListingShow = ({
     const listingId = match.params.listingsId;
     console.log('listingId33333',listingId)
     const getIdOrRedirect = async () => {
-      console.log('match.params.listingsId',match.params.listingsId)
-      const id = await fetchListing(listingId);
+      const id = await fetchListing(match.params.listingsId);
       
-        await fetchReviews(id);
-        await getBookingOfListing(id);
+        await fetchReviews(match.params.listingsId);
+        await getBookingOfListing(match.params.listingsId);
       
     };
     getIdOrRedirect();

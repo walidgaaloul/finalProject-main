@@ -37,10 +37,10 @@ const AddonFive = () => {
 					<div className=" pt-2 pl-5">
 						<section className="m-2 w-75">
 							<h3 className="font-wight-bold text-break mb-1">
-								Battling discrimination on Airbnb
+								Battling discrimination on RENTALS
 							</h3>
 							<p className="font-weight-normal pt-3">
-								Since 2016, we've removed 1.3M people from Airbnb for declining
+								Since 2016, we've removed 1.3M people from RENTALS for declining
 								to treat others without judgement<br></br> or bias. But
 								discrimination still happens, so we're introducing some new ways
 								to fight it.
@@ -53,12 +53,12 @@ const AddonFive = () => {
 					<section className="pt-5 pr-5 w-60">
 						<h3 className="text-dark font-weight-bold text-break firstBlock mb-3">
 							Project Lighthouse: finding &amp; fighting discrimination on
-							Airbnb
+							RENTALS
 						</h3>
 						<span>
 							Project Lighthouse is a groundbreaking initiative we're launching
 							in the United States to uncover, measure, and overcome
-							discrimination when booking or hosting on Airbnb.
+							discrimination when booking or hosting on RENTALS.
 						</span>
 					</section>
 					<div className="mt-5 row justify-content-around">
@@ -73,7 +73,7 @@ const AddonFive = () => {
 								</h3>
 								<p>
 									This project will address discrimination that's based on
-									perception—and on Airbnb, people perceive race from things
+									perception—and on RENTALS, people perceive race from things
 									like first names and profile photos. Together, with civil
 									rights organizations like Color Of Change and Upturn, we're
 									beginning with research to understand when and where racial
@@ -96,7 +96,7 @@ const AddonFive = () => {
 									We worked with leading privacy organizations like the Center
 									for Democracy &amp; Technology to understand the best methods
 									for privacy protection so we can make sure your information
-									stays safe. We analyze trends in bulk, and Airbnb won't
+									stays safe. We analyze trends in bulk, and RENTALS won't
 									associate perceived race information with specific accounts.
 									<span className="bodyLinks">Learn more</span>
 								</p>
@@ -127,7 +127,7 @@ const AddonFive = () => {
 							<section className="mt-4">
 								<h3 className="paragrafHeader">Non-discrimination Policy</h3>
 								<p className="paragraf">
-									Everyone who uses Airbnb must agree to our
+									Everyone who uses RENTALS must agree to our
 									<span className="bodyLinks">Community Commitment</span> and
 									<span className="bodyLinks">Non-discrimination Policy</span>.
 									If you’ve experienced discrimination, we’ll investigate the
@@ -145,7 +145,7 @@ const AddonFive = () => {
 							<section className="mt-4">
 								<h3 className="paragrafHeader">Profile photo protections</h3>
 								<p className="paragraf">
-									We all have bias. But companies like Airbnb can do more to
+									We all have bias. But companies like RENTALS can do more to
 									create tools that help prevent people from making biased
 									decisions. That’s why guests’ profile photos aren’t displayed
 									to hosts until after a booking is confirmed, which encourages
@@ -177,7 +177,7 @@ const AddonFive = () => {
 									Dedicated anti-discrimination team
 								</h3>
 								<p className="paragraf">
-									Airbnb has a specialized team dedicated to making changes to
+								RENTALS has a specialized team dedicated to making changes to
 									our platform that help prevent and address discrimination,
 									including development of initiatives like Project Lighthouse
 									and profile photo protections.
@@ -235,7 +235,7 @@ const AddonFive = () => {
 								<span className="footerLinks">
 									Read the antiracism resources
 								</span>{' '}
-								from our Black employee resource group, Black@Airbnb.
+								from our Black employee resource group, Black@RENTALS.
 							</p>
 						</div>
 					</div>

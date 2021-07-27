@@ -15,9 +15,9 @@ const AddonFour = () => {
           <div className="row">
             <div className="col-md m-auto">
               <div className="container w-75">
-                <h1>Airbnb Associates</h1>
+                <h1>RENTALS Associates</h1>
                 <p style={{ fontSize: "1.5rem" }}>
-                  Thanks for your interest in becoming an Airbnb Associate.
+                  Thanks for your interest in becoming an RENTALS Associate.
                   Unfortunately we aren’t accepting new signups at this time.
                 </p>
               </div>
